@@ -1,0 +1,17 @@
+# Plaintext originals — never publish these, they defeat the encryption
+_source_plaintext_DO_NOT_PUBLISH/
+
+# Raw article source (already baked into the encrypted godel-mektubu.html) —
+# GitHub Pages serves every file publicly regardless of repo visibility, so
+# keeping this out of the repo prevents it from bypassing the password.
+yazılar/
+
+# Design-canvas source files and orphaned assets — not needed to serve the
+# site (index.html and godel-mektubu.html are self-contained) and contain
+# plaintext excerpts that would otherwise sit next to the encrypted pages.
+Bergec Site.dc.html
+BergecMark.dc.html
+Bergec Logo.dc.html
+support.js
+.thumbnail
+uploads/
